@@ -1,23 +1,13 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  transpilePackages: ['react-reveal'],
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(mp3|wav)$/i,
-      use: {
-        loader: "url-loader",
-      },
+      type: 'asset/resource',
     });
-
-    // Resolve react to a single version
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      'react': require.resolve('react'),
-      'react-dom': require.resolve('react-dom')
-    };
-
     return config;
   },
 };
