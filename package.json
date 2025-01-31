@@ -1,4 +1,6 @@
 {
+  "name": "navfolio",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,9 +18,11 @@
     "howler": "^2.2.4",
     "lottie-web": "^5.12.2",
     "next": "^14.2.13",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+
     "react-hot-toast": "^2.4.1",
+    "react-reveal": "^1.2.2",
     "sass": "^1.77.1",
     "tailwind-merge": "^2.3.0",
     "typed.js": "^2.1.0",
