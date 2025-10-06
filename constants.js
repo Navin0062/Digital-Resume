@@ -101,6 +101,25 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "FinSight AI",
+    image: "/projects/finsight.webp",
+    blurImage: "/projects/blur/finsight-blur.webp",
+    description: "AI-powered financial insights platform using MERN + TailwindCSS. 📊",
+    gradient: ["#000066", "#6699FF"],
+    // gradient: ["#00A1FF", "#00FF8F"],
+    url: "https://fin-signt-ai-frontend.vercel.app/",
+    tech: ["react", "typescript", "mongodb", "expressjs", "nodejs", "tailwindcss" ],
+  },
+  {
+    name: "Connectify",
+    image: "/projects/connectify.webp",
+    blurImage: "/projects/blur/connectify-blur.webp",
+    description: "Connectify is a full-stack real-time chat application that enables users to communicate seamlessly. 💬",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://connectify-pswv.onrender.com/login",
+    tech: ["react", "tailwindcss", "nodejs", "javascript", "expressjs", "mongodb"],
+  },
+  {
     name: "National Service Scheme",
     image: "/projects/nss.webp",
     blurImage: "/projects/blur/nss-blur.webp",
@@ -118,16 +137,7 @@ export const PROJECTS = [
     url: "https://agency-obys-clone.netlify.app/",
     tech: ["javascript", "html", "css", "gsap"],
   },
-  {
-    name: "Mini Marvels Montessori",
-    image: "/projects/education.webp",
-    blurImage: "/projects/blur/education-blur.webp",
-    description: "A vibrant school website for kindergarten kids built with HTML + CSS + JavaScript. 🏫",
-    gradient: ["#000066", "#6699FF"],
-    // gradient: ["#00A1FF", "#00FF8F"],
-    url: "https://minimarvelsmontessori.netlify.app/",
-    tech: ["javascript", "html", "css"],
-  },
+  
   // {
   //   name: "Refokus Clone",
   //   image: "",
@@ -138,15 +148,7 @@ export const PROJECTS = [
   //   url: "",
   //   tech: ["react", "javascript", "tailwindcss", "vite"],
   // },
-  {
-    name: "Razorpay ",
-    image: "/projects/razorpay.webp",
-    blurImage: "/projects/blur/razorpay-blur.webp",
-    description: "Razorpay interface clone built with React and TailwindCSS. 💰",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://razorpay-payment-app.netlify.app/",
-    tech: ["react", "tailwindcss", "nodejs", "javascript"],
-  },
+  
 ];
 
 export const WORK_CONTENTS = {
